@@ -23,6 +23,9 @@ This project is a complete Arduino robot system designed for line following, obs
 ## Operation Summary
 The robot normally follows a line at a base speed of 175. When the ultrasonic sensor sees an obstacle closer than 15 cm or the ESP32 input goes LOW, it stops immediately, opens the next servo in sequence, waits for the action to complete, and then resumes line following. After three detections, the robot continues following the track while the servos close one after another on a timed schedule.
 
+## Watch Live here
+https://drive.google.com/file/d/1iC59G38f7Q4IUBOwAT9tK1-CKyfLHbj2/view?usp=sharing
+
 ## Pin Configuration
 - IR sensors: A0, A1, A2, A3, A4
 - Motor ENA: 6
