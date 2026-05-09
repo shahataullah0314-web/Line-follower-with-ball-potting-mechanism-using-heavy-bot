@@ -1,0 +1,13 @@
+.pio/
+.vscode/
+*.elf
+*.hex
+*.eep
+*.d
+*.o
+build/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
